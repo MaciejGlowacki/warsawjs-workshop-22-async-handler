@@ -3,7 +3,7 @@ function assert(x){
         throw new Error('nie ma X');
     }
 }
-const {DataTimeHelper} = require('../src/data_time-helper');
+const {DataTimeHelper} = require('../src/data-time-helper');
 
 describe('test', ()=>{
     it('my assetion test', ()=>{
