@@ -9,7 +9,6 @@ describe('test', ()=>{
     it('my assetion test', ()=>{
         // assert(typeof DataTimeHelper === 'function');
         assert( (/^class/).test(DataTimeHelper.toString()));
-
     });
 });
 
@@ -23,7 +22,6 @@ describe('async test', ()=>{
             // if (overTime >0) {
             //     assert(false, `Time exceded ${overTime}ms`)
             // }
-
             assert(true);
             done();
         }
